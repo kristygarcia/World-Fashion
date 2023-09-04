@@ -1,0 +1,84 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:#f2edeb;
+  
+}
+
+*{
+  margin:0;
+  font-family:'Cormorant SC', serif;
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding:7px;
+}
+
+
+li{
+  list-style-type: none;
+  display:inline-block;
+  margin:10px;
+/* CHHANGE COLOR */
+/* CHANGE THE BACKGROUND COLOR ^^^  */
+  padding:10px;
+  border-radius:10px;
+  
+}
+
+.logo{
+  width:500px;
+}
+.about,.directory{
+  font-weight:600;
+}
+
+li:hover{
+  size:10%;
+  transition:500ms;
+}
+
+
+
+li:not(:hover){
+size:initial;
+  transition:500ms;
+}
+.worldCloset{
+  color:white;
+  margin-left:10px;
+}
+
+path{
+  filter: invert(40%) sepia(13%) saturate(1179%) hue-rotate(277deg) brightness(98%) contrast(85%);
+}
+path:hover{
+    fill: #e0b1cb;
+  filter:none;
+}
+
+svg{
+  width:100%;
+  height:auto;
+}
+/* Tooltip hover for countries */
+
+#details-box{
+  background-color:white;
+  color:black;
+  width:fit-content;
+  border-radius:8px;
+  border: 2px solid black;
+  position:fixed;
+  transition:opacity 100ms linear;
+  z-index:1;
+  padding:10px;
+  font-size:20px;
+}

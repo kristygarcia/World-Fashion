@@ -1,0 +1,192 @@
+*{
+  margin:0;
+  padding:0;
+  color:white;
+    font-family: 'Cormorant SC', serif;
+
+}
+
+body{
+  background-color:black;
+  
+}
+button:hover{
+  cursor:pointer;
+}
+img{
+  width:50%;
+  height:100%;
+  margin-left:0;
+}
+
+.logo{
+/*   display:flex;
+  justify-content:center; */
+/*   margin-left:50px; */
+}
+
+.button{
+/*   display:flex;
+  justify-content:center; */
+}
+
+button{
+  background-color:black;
+  padding:15px;
+  border:1px solid white;
+  font-size:20px;
+  margin-top:100px;
+}
+
+
+/* Rotating text languages */
+.textWrapper > *{
+  position:absolute;
+  font-size:30px;
+  font-weight:bold;
+  width:100%;
+  text-align: center;
+  opacity:0;
+}
+
+.english{
+  animation: ani1 17s infinite;
+}
+.spanish{
+  animation: ani2 17s infinite;
+}
+.arabic{
+  animation: ani3 17s infinite;
+}
+.chinese{
+  animation: ani4 17s infinite;
+}
+.french{
+  animation: ani5 17s infinite;
+}
+.portuguese{
+  animation: ani6 17s infinite;
+}
+.romanian{
+  animation: ani7 17s infinite;
+}
+.latvian{
+  animation: ani8 17s infinite;
+}
+.greek{
+  animation: ani9 17s infinite;
+}
+.slovak{
+  animation: ani10 17s infinite;
+}
+
+@keyframes ani1{
+  0%{
+    opacity: 0;
+  }
+  5%{
+    opacity: 1;
+  }
+  10%{
+    opacity:0;
+  }
+}
+@keyframes ani2{
+  10%{
+    opacity: 0;
+  }
+  15%{
+    opacity: 1;
+  }
+  20%{
+    opacity:0;
+  }
+}
+@keyframes ani3{
+  20%{
+    opacity: 0;
+  }
+  25%{
+    opacity: 1;
+  }
+  30%{
+    opacity:0;
+  }
+}
+@keyframes ani4{
+  30%{
+    opacity: 0;
+  }
+  35%{
+    opacity: 1;
+  }
+  40%{
+    opacity:0;
+  }
+}
+@keyframes ani5{
+  40%{
+    opacity: 0;
+  }
+  45%{
+    opacity: 1;
+  }
+  50%{
+    opacity:0;
+  }
+}
+@keyframes ani6{
+  50%{
+    opacity: 0;
+  }
+  55%{
+    opacity: 1;
+  }
+  60%{
+    opacity:0;
+  }
+}
+@keyframes ani7{
+  60%{
+    opacity: 0;
+  }
+  65%{
+    opacity: 1;
+  }
+  70%{
+    opacity:0;
+  }
+}
+@keyframes ani8{
+  70%{
+    opacity: 0;
+  }
+  75%{
+    opacity: 1;
+  }
+  80%{
+    opacity:0;
+  }
+}
+@keyframes ani9{
+  80%{
+    opacity: 0;
+  }
+  85%{
+    opacity: 1;
+  }
+  90%{
+    opacity:0;
+  }
+}
+@keyframes ani10{
+  90%{
+    opacity: 0;
+  }
+  95%{
+    opacity: 1;
+  }
+  100%{
+    opacity:0;
+  }
+}

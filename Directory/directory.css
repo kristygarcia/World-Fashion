@@ -1,0 +1,86 @@
+*{
+   font-family: 'Cormorant SC', serif;
+
+}
+body h3,h2,h4{
+  margin-left:10px;
+}
+a{
+  text-decoration: none;
+}
+body a{
+  color:black;
+}
+hr{
+  width:50%;
+  margin-left:0;
+}
+h4{
+  font-size:25px;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:#F2EDEB;
+}
+.landing{
+  margin:0;
+}
+
+body{
+  margin:0;
+
+  color:black;
+}
+/*NAV BAR START  */
+.about a{
+  color:white;
+}
+.directory a{
+  color:white;
+}
+.header a{
+  text-decoration:none;
+  color:white;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding:7px;
+}
+.header{
+  background-color:black;
+}
+
+.navigationMenu ul li{
+  color:white;
+  list-style-type: none;
+  display:inline-block;
+  margin:10px;
+  border-radius:10px;
+  
+}
+/* .about, .directory{
+  list-style-type: none;
+  display:inline-block;
+  margin:10px;
+  color:white;
+  padding:10px;
+  border-radius:10px;
+  
+} */
+
+.logo{
+  width:500px;
+  margin:0;
+}
+.about,.directory{
+  font-weight:600;
+   font-family: 'Cormorant SC', serif;
+  color:white;
+}
+
+/* HEADER END FOR NAV BAR */

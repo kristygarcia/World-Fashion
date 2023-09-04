@@ -1,0 +1,112 @@
+body,html{
+  width:100%;
+  height:100%;
+  background-color:#f2edeb
+}
+
+* {
+  margin:0;
+  padding:0;
+  font-family:'Cormorant SC', serif;
+}
+
+.missionBox{
+  width:500px;
+  border:1px double black;
+  color:black;
+  border-radius:60px;
+  padding:20px;
+}
+.missionTitle{
+  margin-top:50px;
+}
+
+.aboutHeader{
+  margin-top:100px;
+  
+}
+
+.images{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  margin-top:50px;
+}
+img{
+  width:300px;
+  border-radius:50%;
+  padding:50px;
+  height:300px;
+}
+.title,.title2,.title3{
+  text-align:center;
+  font-weight:800;
+}
+p{
+  font-size:20px;
+  text-align:center;
+  width:350px;
+
+}
+
+.images h3{
+  font-size:40px;
+}
+
+*NAV BAR START  */
+.about a{
+  color:white;
+}
+.directory a{
+  color:white;
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding:7px;
+}
+.header{
+  background-color:black;
+  padding:0;
+  height:96.2px;
+}
+
+.navigationMenu ul li{
+  color:white;
+  list-style-type: none;
+  display:inline-block;
+  margin:10px;
+  padding:10px;
+  border-radius:10px;
+  
+}
+/* .about, .directory{
+  list-style-type: none;
+  display:inline-block;
+  margin:10px;
+  color:white;
+  padding:10px;
+  border-radius:10px;
+  
+} */
+
+.logo{
+  width:500px;
+  margin:0;
+  padding:0;
+  margin-left:8px;
+}
+.about,.directory{
+  font-weight:600;
+}
+
+/* HEADER END FOR NAV BAR */
+
+
+

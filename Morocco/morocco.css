@@ -1,0 +1,350 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color:#F2EDEB;
+  
+}
+*{
+  margin:0;
+    font-family: 'Cormorant SC', serif;
+
+}
+h2{
+  font-size: 30px;
+  text-align:center;
+}
+.title{
+  margin-top:3vh;
+  font-family: 'Cormorant SC', serif;
+  margin-bottom:1vh;
+  margin-left:10px;
+  
+}
+
+.generalInfo{
+  display: grid;
+  grid-template-columns: 45% auto 40%;
+  grid-template-rows: repeat(5,1fr);
+  height: 100vh;
+}
+.generalInfo > *{
+  border-radius:10%;
+  text-align:left;
+  font-size: 22px;
+  font-family: 'Cormorant SC', serif;
+}
+.fashionInfluencers img{
+  display:flex;
+  flex-direction:column;
+  width:80px;
+  border-radius:50%;
+  margin-left:100px;
+  padding:10px;
+  color: black;
+}
+.insta {
+  color:black;
+  font-size: 22px;
+    transform: translateY(20px);
+    font-weight: lighter;
+}
+.brands{
+  margin-top:-60px;
+  text-align:center;
+}
+section{
+  display:flex;
+  flex-direction:row;
+}
+
+.fashionTips{
+  grid-column: 1;
+    grid-row: 1 / 6;
+  margin-left:10px;
+  text-align:left;
+}
+
+.climate{
+  grid-column: 3;
+    grid-row: 1 / 2;
+  text-align:center;
+  font-size: 25px;
+/*   margin: 10px; */
+}
+.fashionInfluencers{
+    text-align: center;
+    grid-column: 3;
+    grid-row: 2 / 5;
+}
+.brands{
+  grid-column: 3;
+    grid-row: 5 / 6;
+}
+.pictureTitle{
+text-align: center;
+font-weight:800;
+}
+
+.brandImages img{
+  width:110px;
+  border-radius:50%;
+  height:110px;
+}
+.brandImages{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+}
+
+.polaroid1{
+  display: inline-block;
+  margin: 30px 35px 15px;
+  background-color:#ffffff;
+  padding:10px 10px 25px;
+  box-shadow: 5px 7px 4px #8888;
+}
+.polaroid2{
+  display: inline-block;
+  margin: 30px 35px 15px;
+  background-color:#ffffff;
+  padding:10px 10px 25px;
+  box-shadow: 5px 7px 4px #8888;
+}
+
+.polaroid3{
+  display: inline-block;
+  margin: 30px 35px 15px;
+  background-color:#ffffff;
+  padding:10px 10px 25px;
+  box-shadow: 5px 7px 4px #8888;
+}
+
+.polaroid4{
+  display: inline-block;
+  margin: 30px 35px 15px;
+  background-color:#ffffff;
+  padding:10px 10px 25px;
+  box-shadow: 5px 7px 4px #8888;
+}
+.polaroid5{
+  display: inline-block;
+  margin: 30px 35px 15px;
+  background-color:#ffffff;
+  padding:10px 10px 25px;
+  box-shadow: 5px 7px 4px #8888;
+}
+
+.polaroid6{
+  display: inline-block;
+  margin: 30px 35px 15px;
+  background-color:#ffffff;
+  padding:10px 10px 25px;
+  box-shadow: 5px 7px 4px #8888;
+}
+
+.polaroid7{
+  display: inline-block;
+  margin: 30px 35px 15px;
+  background-color:#ffffff;
+  padding:10px 10px 25px;
+  box-shadow: 5px 7px 4px #8888;
+}
+
+.polaroid8{
+  display: inline-block;
+  margin: 30px 35px 15px;
+  background-color:#ffffff;
+  padding:10px 10px 25px;
+  box-shadow: 5px 7px 4px #8888;
+}
+.polaroid9{
+  display: inline-block;
+  margin: 30px 35px 15px;
+  background-color:#ffffff;
+  padding:10px 10px 25px;
+  box-shadow: 5px 7px 4px #8888;
+}
+.polaroid10{
+  display: inline-block;
+  margin: 30px 35px 15px;
+  background-color:#ffffff;
+  padding:10px 10px 25px;
+  box-shadow: 5px 7px 4px #8888;
+}
+
+.polaroid11{
+  display: inline-block;
+  margin: 30px 35px 15px;
+  background-color:#ffffff;
+  padding:10px 10px 25px;
+  box-shadow: 5px 7px 4px #8888;
+}
+.polaroid12{
+  display: inline-block;
+  margin: 30px 35px 15px;
+  background-color:#ffffff;
+  padding:10px 10px 25px;
+  box-shadow: 5px 7px 4px #8888;
+}
+
+img{
+  width:16rem;
+}
+
+/* Hover show text code */
+  .overlay{
+    background-color:white;
+    border-radius:50%;
+    width:110px;
+    height:111.83px;
+    position:relative;
+    opacity:0;
+}
+.maxAndJan{
+  transform:translateY(35px);
+  color:black;
+}
+.brand1{
+  display:block;
+  position:absolute;
+  object-fit:cover;
+}
+.wrapper:hover .overlay{
+  opacity:1;
+  transition:500ms;
+}
+.wrapper:not(:hover) .overlay {
+  opacity:0;
+  transition:400ms;
+}
+
+.content{
+  font-size:50px;
+}
+
+/* End of hover to show text */
+.fashionTips li{
+  font-size:25px;
+  text-align:left;
+}
+.fashionTips ul{
+  text-justify:inter-word;
+  text-align:justify;
+  width:100%;
+}
+
+/* Hover Show Text for Sezane */
+ .overlay2{
+    background-color:white;
+    border-radius:50%;
+    width:110px;
+    height:111.83px;
+    position:relative;
+    opacity:0;
+}
+.rueMaj{
+  transform:translateY(35px);
+  color:black;
+}
+.brand2{
+  display:block;
+  position:absolute;
+}
+.wrapper2:hover .overlay2{
+  opacity:1;
+  transition:500ms;
+}
+.wrapper2:not(:hover) .overlay2 {
+  opacity:0;
+  transition:400ms;
+}
+
+.content2{
+  font-size:50px;
+}
+/* Overlay Text Img 2 End */
+
+/* Overlay Text Img 3 Start */
+.overlay3{
+    background-color:white;
+    border-radius:50%;
+    width:110px;
+    height:111.83px;
+    position:relative;
+    opacity:0;
+}
+.hanout{
+  transform:translateY(42px);
+  color:black;
+  font-size:25px;
+}
+.brand3{
+  display:block;
+  position:absolute;
+}
+.wrapper3:hover .overlay3{
+  opacity:1;
+  transition:500ms;
+}
+.wrapper3:not(:hover) .overlay3 {
+  opacity:0;
+  transition:400ms;
+}
+
+.content3{
+  font-size:48px;
+  margin-top:-5px;
+}
+/* Overlay Text Img 3 End */
+/*NAV BAR START  */
+.about a{
+  color:white;
+}
+.directory a{
+  color:white;
+}
+a{
+  text-decoration:none;
+  color:white;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding:7px;
+}
+.header{
+  background-color:black;
+}
+
+.navigationMenu ul li{
+  color:white;
+  list-style-type: none;
+  display:inline-block;
+  margin:10px;
+  padding:10px;
+  border-radius:10px;
+  
+}
+/* .about, .directory{
+  list-style-type: none;
+  display:inline-block;
+  margin:10px;
+  color:white;
+  padding:10px;
+  border-radius:10px;
+  
+} */
+
+.logo{
+  width:500px;
+  margin:0;
+}
+.about,.directory{
+  font-weight:600;
+  font-family:
+}
+
+/* HEADER END FOR NAV BAR */
+/
